@@ -9,6 +9,7 @@ use Illuminate\Database\Eloquent\Relations\HasMany;
 /**
  * @property int $id
  * @property int $user_id
+ * @property string $title
  * @property bool $private_show
  *
  * @property-read Episode[] $episodes
