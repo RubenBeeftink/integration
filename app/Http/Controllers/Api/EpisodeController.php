@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers\Api;
 
-use App\Helpers\Auphonic\Auphonic;
 use App\Helpers\Auphonic\AuphonicSettings;
 use App\Helpers\Auphonic\Exceptions\NoiseReductionAmountNotSupportedException;
 use App\Helpers\Auphonic\Exceptions\OutputFileNotSupportedException;
