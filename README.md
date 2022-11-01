@@ -4,6 +4,7 @@
 This code is built on the basis of a Podcast structure. The simple database structure is as follows:
 
 Tables:
+
 `users`
 
 `podcasts`
@@ -11,6 +12,7 @@ Tables:
 `episodes`
 
 Relations:
+
 `user has many podcasts`
 
 `podcast has many episodes`
