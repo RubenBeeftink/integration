@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\Api\EpisodeController;
+use App\Http\Controllers\Api\WebhookController;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
@@ -17,3 +19,8 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+Route::middleware('auth:sanctum')
+    ->post('/episodes/{episode}/optimize-audio', EpisodeController::class);
+
+Route::post('/auphonic', WebhookController::class);
