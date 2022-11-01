@@ -5,12 +5,16 @@ This code is built on the basis of a Podcast structure. The simple database stru
 
 Tables:
 `users`
+
 `podcasts`
+
 `episodes`
 
 Relations:
 `user has many podcasts`
+
 `podcast has many episodes`
+
 `episode belongs to podcast`
 
 ##
