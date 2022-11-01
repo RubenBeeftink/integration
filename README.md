@@ -1,4 +1,4 @@
-<p align="center">Auphonic integration</p>
+<p align="center"><h3>Auphonic integration</h3></p>
 
 ##
 This code is built on the basis of a Podcast structure. The simple database structure is as follows:
