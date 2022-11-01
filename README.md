@@ -1,7 +1,7 @@
 <p align="center"><h3>Auphonic integration</h3></p>
 
 ##
-This integrates Auphonic audio optimization. Auphonic offers an API to user their services, which this aims to incorporate into a project. Auphonic optimizes audio using various algorithms and settings, which are described and configured using the `App\Helpers\AuphonicSettings` class. These settings reflect the exact settings and values as documented here: https://auphonic.com/help/api/.
+This integrates Auphonic audio optimization. Auphonic offers an API to user their services, which this aims to incorporate into a project. The basic principle of this code is that it sends an audio file to the auphonic service and later retreives an optimized file. The original file is then replaced by the optimized file. Auphonic optimizes audio using various algorithms and settings, which are described and configured using the `App\Helpers\AuphonicSettings` class. These settings reflect the exact settings and values as documented here: https://auphonic.com/help/api/.
 
 The settings class can then be passed along to the `App\Helpers\Auphonic` class along with an Episode model.
 
